@@ -5,7 +5,6 @@ build:
     pre-build:
       - chmod +x gradlew
     build:
-    - chmod +x gradlew
     - ./gradlew build -x test
 run:
   command: java -jar build/libs/wallt_app-0.0.1-SNAPSHOT.jar
