@@ -7,7 +7,7 @@ build:
     build:
     - chmod +x gradlew
     - ./gradlew build -x test
-start:
+run:
   command: java -jar build/libs/wallt_app-0.0.1-SNAPSHOT.jar
   network:
     port: 2000
